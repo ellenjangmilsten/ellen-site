@@ -26,13 +26,27 @@
 		color:pink;
 		text-align:center;
 	}
+	#capital{
+		text-transform: uppercase;
+		background-color: rgba( 45, 45, 45, 0.1);
+	}
+	#textstyle{
+		font-size: 16px;
+		font-weight:200;
+		line-height:23px;
+		max-width:85ch;
+	}
+	#linelength{
+		max-width:85ch;
+		margin: 0 auto;
+	}
 	</style>
 <head>
 <h2 id="title">
 About me
 </h2>
 </head>
-<body class="thin-pink-border">
+<body id="linelength" class="thin-pink-border">
 <p>
 Welcome to my about me page! Here you'll learn a bit about me and my coding journey. I'll update this page with posts as I learn new code or as significant things happen in my life.
 I graduated from Harvard in 2018 with a degree in Philosophy. I adored my time in the philosophy department and believe that the logic skills I learned there have proven useful for my coding journey. I don't read a smuch philosophy as I use to but I still find myself thinking analytically and wishing I had someone to debate with (besides Henry, of course). Maybe eventually I'll feel complelled to give my thoughts their own blog post. 
@@ -82,6 +96,32 @@ There are also multiple ways to priortize different styles and override styles. 
 My final note is more of a note to myself than to you. There is an element called a "root" element. I believe is works as a sort of overarching element that controls the document. For example, if I were to put a variable within that root, it would take effect everyone the variable is menitoned. I'm not totally sure of the purpose yet but I do think it's important.
 <br>
 <br>
+
+<h3>
+	August 11th, 2020
+</h3>
+<p>
+It's been a while! I took a break from practice because work has been tiring and I couldn't quite get myself to come home and learn. For a couple days I was bringing my computer to work to practice during my lunch break but that too became a bit tiresome. However, tomorrow I will try again! 
+<br>
+<br>
+Tonight I've been developing my css skills a bit more. I didn't realize at the end of the previous lessons that the following lessons were all about text and formating for webpages. I likely would not have done all the changes to my recipe pages had I known. I guess it was good practice though...
+<br>
+<br>
+Anyways, now I'm learning quicker ways to transfrom my text. For example, I can do inline transformations to make things <strong>bold</strong>, or <i>italic</i>, or even <u>underlined</u>. <s>Strike-through</s> was also taught.
+<hr>
+<div id="capital">
+While it is easier to do these shortcuts for particular words, I do still like being able to assign classes to different elements and have the changes affect all of it. For example, this element can become all capital letters if I create and assign a class telling it to do so. Additionally, I will give this paragraph a background color so that it stands out compared to the rest of the text. 
+</div>
+<br>
+<hr>
+<div id="textstyle">
+Thankfully, I won't stick with that. Reading all those capital letters was a little terrible for me. Likely was for you too. In this paragraph I'll play with the shape of my text! I can adjust the height and the width of my letters. Additioanlly, I can change the space in between my lines. If you compare this paragraph to the one above, you'll notice that these lines are more spaced out. Almost as if I made the parapgraph spacing as 1.2 instead of 1. 
+<hr>
+Henry just pointed out that my lines are a bit too long. For the ideal reading experience, he suggested using shorter paragraph lines. So, we google'd how to do it! We adjusted the line length using "max-width" and then re-centered the page by using "margin:0 auto" which moved the entire border. Hopefully this makes the reading experience a bit better. 
+</div>
+<br>
+<br>
+
 <footer>
 	<a href="index.html">Go to Home Page</a>
 	<br>
