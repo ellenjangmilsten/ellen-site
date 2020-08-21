@@ -26,6 +26,9 @@
 		font-style:italic;
 		color:pink;
 		text-align:center;
+		position: fixed;
+		top:10px;
+		left:225px;
 	}
 	#capital{
 		text-transform: uppercase;
@@ -35,16 +38,28 @@
 		font-size: 16px;
 		font-weight:200;
 		line-height:23px;
-		max-width:85ch;
+		max-width:90ch;
 	}
 	#linelength{
 		max-width:85ch;
 		margin: 0 auto;
 	}
+	a:hover{
+		color:blue;
+	}
+
 	</style>
 <head>
+<div id="color1">
+<div id="color2">
+
 <h2 id="title">
 About me
+<br>
++
+<br>
+Blog
+
 </h2>
 </head>
 <body id="linelength" class="thin-pink-border">
@@ -119,7 +134,22 @@ While it is easier to do these shortcuts for particular words, I do still like b
 Thankfully, I won't stick with that. Reading all those capital letters was a little terrible for me. Likely was for you too. In this paragraph I'll play with the shape of my text! I can adjust the height and the width of my letters. Additioanlly, I can change the space in between my lines. If you compare this paragraph to the one above, you'll notice that these lines are more spaced out. Almost as if I made the parapgraph spacing as 1.2 instead of 1. 
 </div>
 <hr>
-Henry just pointed out that my lines are a bit too long. For the ideal reading experience, he suggested using shorter paragraph lines. So, we google'd how to do it! We adjusted the line length using "max-width" and then re-centered the page by using "margin:0 auto" which moved the entire border. I also added a "box-shadow" to the border to give it a little flare -- just staring at the white screen made it seem a little depressing. I haven't figured out how to add a solid background color outsideof the border but I'm working on it! Hopefully this makes the reading experience a bit better. 
+Henry just pointed out that my lines are a bit too long. For the ideal reading experience, he suggested using shorter paragraph lines. So, we google'd how to do it! We adjusted the line length using "max-width" and then re-centered the page by using "margin:0 auto" which moved the entire border. Hopefully this makes the reading experience a bit better. 
+<br>
+<br>
+<h3>
+	August 16th, 2020
+</h3>
+<p>
+It's a Sunday! I don't start work till 11:30am so I was able to get up and learn some coding. Today's lessons were very interesting because I'm learning how to control elements on my page more. For example, did you notice how my "About me + Blog" element now moves?? It'll stay with you as you scroll to the bototm. ALl I had to do was learn how to position the element and keep it in a fixed location. I also learned how to create relative positions but have not had a chance to use them yet. 
+<br>
+<br>
+I learned how to change the color of things when the mouse is hovering over them. If you go to my home page, you'll notice that when you hover over the "About me + BLog" and "Recipes" shortcuts, they turn blue! This is a great (and easy) way to let someone know what they're about to click on is a link. All I had to do was to give it a hover property (aka a fake class). It's also nice because you can apply it to all your "a" elements.
+<br>
+<br>
+The z-index cau be used for overlapping elements where you want to contorl which element is on top. The higher the z-index value, the further on top it'll be. I don't have nay overlapping elements in my website so I haven't had a chance to try it out but I do imagine it would be very useful for decoration purposes. 
+</div>
+</div>
 <br>
 <br>
 
@@ -129,6 +159,7 @@ Henry just pointed out that my lines are a bit too long. For the ideal reading e
 	<a href="recipes.html"> Go to Recipes</a>
 </footer>
 </div>
-
+</div>
+</div>
 </body>
 </html>
