@@ -4,15 +4,15 @@
 	.smaller-image{
 		width:300px;
 		border-radius:75%;
-		border-color: pink;
+		border-color: #FF99D4;
 		border-width:5px;
 		border-style:solid;
 		display:block;
 		margin:auto;
 	}
 	.thin-pink-border{
-		border-color: pink;
-		border-width: 5px;
+		border-color: white;
+		border-width: 20px;
 		border-style: solid;
 		margin-top:2%;
 		margin-bottom:2%;
@@ -22,15 +22,18 @@
 		padding-right:10%;
 		padding-left:10%;
 		padding-bottom:2%;
-		box-shadow:10px 100px 100px rgba(255,0,0,1.0);
+		outline-color:#FFBDE3;
+		outline-style:solid;
+		outline-width:1000px;
+
 	}
 	#title{
 		font-style:italic;
-		color:pink;
+		color:#FF33A5;
 		text-align:center;
 		position: fixed;
 		top:10px;
-		left:225px;
+		left:215px;
 	}
 	#capital{
 		text-transform: uppercase;
@@ -49,11 +52,13 @@
 	a:hover{
 		color:blue;
 	}
+	#date{
+		color:#3383FF;
+		font-weight:bold;
+	}
 
 	</style>
 <head>
-<div id="color1">
-<div id="color2">
 
 <h2 id="title">
 About me
@@ -77,7 +82,7 @@ I work a day job in retail and have begun my moonlighting career in code. Please
 <img class="smaller-image" src="https://i.postimg.cc/qBQf7fLL/AAFCEEE3-DC84-4-A7-E-89-C4-661-FDD84-C54-C.jpg">
 </div>
 <div>
-<h3>
+<h3 id="date">
 August 3rd, 2020
 </h3>
 I've tried to learn to code multiple times but only in my latest attempt has it stuck. I'm working through the freecodecamp.org curriculum, linked <a href="freecodecamp.org">here</a>. What I like most about it is that it just jumps right in to coding. The abstract "behind the scenes" information was too overwhelming for me. But learning the basics of html was a much more exciting and digestable intro. 
@@ -95,7 +100,7 @@ As I'm sure you've noticed, images are also something I learned how to insert. A
 Next up for me is learning CSS so that I can get my website looking a bit better! 
 </div>
 <div>
-<h3>
+<h3 id="date">
 August 4th, 2020
 </h3>
 I finished the CSS intro unit today! As I'm sure you've noticed, I added in borders and text color. I even changed the font of this post! 
@@ -115,7 +120,7 @@ My final note is more of a note to myself than to you. There is an element calle
 <br>
 <br>
 
-<h3>
+<h3 id="date">
 	August 11th, 2020
 </h3>
 <p>
@@ -139,7 +144,7 @@ Thankfully, I won't stick with that. Reading all those capital letters was a lit
 Henry just pointed out that my lines are a bit too long. For the ideal reading experience, he suggested using shorter paragraph lines. So, we google'd how to do it! We adjusted the line length using "max-width" and then re-centered the page by using "margin:0 auto" which moved the entire border. Hopefully this makes the reading experience a bit better. 
 <br>
 <br>
-<h3>
+<h3 id="date">
 	August 16th, 2020
 </h3>
 <p>
@@ -150,8 +155,20 @@ I learned how to change the color of things when the mouse is hovering over them
 <br>
 <br>
 The z-index cau be used for overlapping elements where you want to contorl which element is on top. The higher the z-index value, the further on top it'll be. I don't have nay overlapping elements in my website so I haven't had a chance to try it out but I do imagine it would be very useful for decoration purposes. 
-</div>
-</div>
+<br>
+<br>
+<h3 id="date">
+	August 22nd,2020
+</h3>
+<p>
+	Today has been all about color and how to use it! I've learned another new way to set it (rgba) and I've learned how to set a color based off of hue, lightness and saturation (hsl) which makes it easier to use the same base color with it's different shades. I imagine this will be very helpful in designing block units on websites. Additionally, I've learned how to use a linear gradient(degree,color,color) for instances when I want to show off a little with color. You can make stripes by using the repeating-linear-gradient(angle,color 0px,color50px,color40px,color80px) to set the colors and width of the stripes. Another interesting way to add visual appeal to a webpage is by changing the background. Suprisingly enough, it does not need to be solid. You can use an image url to set the background pattern background: url(""). 
+	<br>
+	<br>
+	To change the size of an image, you can use transform(scale) and adjust it in relation to it's original size. You can also change the size of an image in it's hover state to draw more attention as they're hovering over it. Simply add the trnasform:scale property to the hover class of the element. If I wanted an element to be slanted on a page (maybe an italisized paragraph...or a side comment) I can use the transform:skewX/Y function to do that.
+	<br>
+	<br>
+	Through internent searching, I finally figured out how to change the background color outside of my border! You can use the outline property to set an outline property and then simply make the width of that property large enough to cover your empty space. I'm very excited to now have an additional color. 
+</p>
 <br>
 <br>
 
